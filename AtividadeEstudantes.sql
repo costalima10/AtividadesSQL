@@ -25,3 +25,5 @@ VALUES ("Gabriel","2000-12-10","7.0", "S.I"),
 
 select * from tb_estudantes where nota >=7;
 select * from tb_estudantes where nota <=7;
+
+update tb_estudantes set nota = 5.0 where matricula = 2;
